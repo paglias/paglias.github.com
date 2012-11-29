@@ -1,0 +1,16 @@
+---
+layout: default
+title: Portfolio
+---
+
+<section class="content">
+  <h2>Blog</h2>
+
+  <p>Check out my posts below!</p>
+  </section>
+
+  <ul class="entries">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

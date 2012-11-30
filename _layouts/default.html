@@ -4,20 +4,23 @@
     <meta charset=utf-8 />
     <title> {% if page.title %} {{ page.title }} | {% endif %} paglias.net </title>
 
-    <link rel="stylesheet" href="./libs/bootstrap-2.2.1/css/bootstrap.min.css" media="screen" />
-    <link rel="stylesheet" href="./libs/bootstrap-2.2.1/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="/libs/bootstrap-2.2.1/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" href="/libs/bootstrap-2.2.1/css/bootstrap-responsive.min.css" />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/css/style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   </head>
   <body>
-    <div class="container">
+
+    <div class="container" id="content">
       <div class="row">
-        <h1 class="span12 page-header" id="header">paglias.net <small>a website</small></h1>
+        <h1 class="span12" id="header"><a href="/">paglias.net</a> <!-- <br class="visible-phone"> <small>a website</small> --></h1>
         {{ content }}
       </div>
     </div>
+
   </body>
 </html>

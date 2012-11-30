@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Portfolio
+title: Blog
 ---
-
-<section class="content">
+<div class="span12">
   <h2>Blog</h2>
-
-  <p>Check out my posts below!</p>
-  </section>
 
   <ul class="entries">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>
+      	<span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      	<p>{{ post.content | truncatewords 50 }}</p>
+      </li>
     {% endfor %}
   </ul>
+ </div>

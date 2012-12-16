@@ -2,11 +2,10 @@ body, html{
 	width: 100%;
 	background: #fefefe;
   text-align: center;
-  font-family: Ubuntu Light;
+  font-family: 'Ubuntu';
 }
 
 #header{
-  font-weight: 300;
   color: #333;
   font-size: 72px;
   margin-bottom: 10px;

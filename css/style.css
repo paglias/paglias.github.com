@@ -1,18 +1,22 @@
 body, html{
-	width: 100%;
 	background: #fefefe;
   text-align: center;
   font-family: 'Ubuntu';
 }
 
 #wrapper{
-  width: 460px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
   box-sizing:border-box;
   -moz-box-sizing:border-box; /* Firefox */
   -webkit-box-sizing:border-box; /* Safari */
+}
+
+@media only screen and (min-width: 768px) {
+  #wrapper {
+    width: 33.33333333%;
+  }
 }
 
 #header{

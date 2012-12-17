@@ -5,17 +5,23 @@ body, html{
 }
 
 #wrapper{
+  width: 460px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
-  box-sizing:border-box;
-  -moz-box-sizing:border-box; /* Firefox */
-  -webkit-box-sizing:border-box; /* Safari */
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 480px) {
   #wrapper {
-    width: 33.33333333%;
+    width: 97%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape){
+  #wrapper h1{
+    margin-top: 15px;
   }
 }
 

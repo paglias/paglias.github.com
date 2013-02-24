@@ -5,15 +5,20 @@ body, html{
 }
 
 #wrapper{
-  width: 460px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizine: border-box;
+  -moz-box-sizine: border-box;
 }
 
 @media only screen and (max-width: 480px) {
   #wrapper {
-    width: 97%;
+    box-sizing: border-box;
+    -webkit-box-sizine: border-box;
+    -moz-box-sizine: border-box;
     padding-left: 1.5%;
     padding-right: 1.5%;
   }

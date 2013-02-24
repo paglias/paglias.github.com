@@ -57,8 +57,8 @@ body, html{
     padding-right: 1.5%;
   }
 
-  #name{
-    font-size: 32px;
+  #header{
+    font-size: 64px;
   }
 }
 

@@ -2,3 +2,7 @@ _paglias-github.sublime-project
 _paglias-github.sublime-workspace
 _site
 TODO
+.DS_Store
+.next/
+node_modules/
+out/

@@ -42,40 +42,46 @@ export default function Home() {
         </p>
       </header>
       <article className="prose prose-xl max-w-full w-full flex-grow">
-        <ul className="lead">
-          <li>
-            <a href="https://github.com/paglias" target="_blank" rel="noopener">
-              Github
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/matteopagliazzi/"
-              target="_blank"
-              rel="noopener"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:matteopagliazzi@gmail.com"
-              target="_blank"
-              rel="noopener"
-            >
-              Email
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/MatteoPagliazzi"
-              target="_blank"
-              rel="noopener"
-            >
-              Twitter
-            </a>
-          </li>
-        </ul>
+        <p className="lead">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/paglias"
+                target="_blank"
+                rel="noopener"
+              >
+                Github
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/matteopagliazzi/"
+                target="_blank"
+                rel="noopener"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:matteopagliazzi@gmail.com"
+                target="_blank"
+                rel="noopener"
+              >
+                Email
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/MatteoPagliazzi"
+                target="_blank"
+                rel="noopener"
+              >
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </p>
       </article>
 
       <footer className="pt-8">

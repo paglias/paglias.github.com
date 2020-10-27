@@ -81,7 +81,7 @@ export default function Home() {
         </ul>
       </article>
 
-      <footer className="pt-8">
+      {/* <footer className="pt-8">
         <p className="prose flex flex-row justify-between w-full max-w-full">
           <small>
             <a
@@ -92,9 +92,9 @@ export default function Home() {
               Source
             </a>
           </small>
-          <small>&copy; 2020 - ${name}</small>
+          <small>&copy; 2020 - {name}</small>
         </p>
-      </footer>
+  </footer> */}
     </main>
   );
 }

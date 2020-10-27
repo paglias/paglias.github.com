@@ -34,48 +34,61 @@ export default function Home() {
       <header className="mb-4">
         <p className="prose prose-xl max-w-full">
           <h1
-            className="border-b-4 border-blue-500 pb-4 w-full"
+            className="w-full border-b-4 border-blue-500 pb-4"
             style={{ fontWeight: "bold" }}
           >
             {name}
           </h1>
         </p>
       </header>
-      <article className="flex-grow prose">
-        <p className="lead">
-          <ul>
-            <li>
-              <a href="">Curriculum Vitae / Resume</a>
-            </li>
-            <li>
-              <a href="https://github.com/paglias" target="_blank">
-                Github
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/matteopagliazzi/"
-                target="_blank"
-              >
-                Linkedin
-              </a>
-            </li>
-            <li>
-              <a href="mailto:matteopagliazzi@gmail.com" target="_blank">
-                Email
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/MatteoPagliazzi" target="_blank">
-                Twitter
-              </a>
-            </li>
-          </ul>
-        </p>
+      <article className="prose prose-xl max-w-full w-full flex-grow">
+        <ul className="lead">
+          <li>
+            <a href="https://github.com/paglias" target="_blank" rel="noopener">
+              Github
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/matteopagliazzi/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:matteopagliazzi@gmail.com"
+              target="_blank"
+              rel="noopener"
+            >
+              Email
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/MatteoPagliazzi"
+              target="_blank"
+              rel="noopener"
+            >
+              Twitter
+            </a>
+          </li>
+        </ul>
       </article>
 
-      <footer className="">
-        <p className="prose">
+      <footer className="pt-8">
+        <p className="prose flex flex-row justify-between w-full max-w-full">
+          <small>
+            <a
+              href="https://github.com/paglias/paglias.github.com"
+              target="_blank"
+              rel="noopener"
+            >
+              Source
+            </a>
+          </small>
           <small>&copy; 2020 - Matteo Pagliazzi</small>
         </p>
       </footer>

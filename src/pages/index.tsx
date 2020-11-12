@@ -47,6 +47,16 @@ export default function Home() {
       <article className="prose prose-xl max-w-full w-full flex-grow">
         <ul className="lead">
           <li>
+            Curriculum Vitae / Resume:{" "}
+            <a href="/Matteo_Pagliazzi_CV_EN.pdf" target="_blank">
+              English
+            </a>{" "}
+            /{" "}
+            <a href="/Matteo_Pagliazzi_CV_IT.pdf" target="_blank">
+              Italiano
+            </a>
+          </li>
+          <li>
             <a href="https://github.com/paglias" target="_blank" rel="noopener">
               Github
             </a>
